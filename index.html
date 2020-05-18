@@ -4,8 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shadow Uprise</title>
+  <style>
+    body {
+      display: grid;
+      grid-template-areas: 
+        "header"
+        "navbar"
+        "banner"
+        "content";
+    }
+    #header {
+      grid-area: header;
+    }
+    #banner {
+      grid-area: banner;
+    }
+    nav {
+      grid-area: navbar;
+    }
+    main {
+      grid-area: content;
+    }
+
+  </style>
 </head>
 <body>
+  <img src="https://shadowuprise.files.wordpress.com/2020/04/cropped-shadow-uprise-1-1.png" alt="Team Logo" id="header">
+  <img src="https://shadowuprise.files.wordpress.com/2020/03/qwzi4gdb-2.jpg" alt="Team Banner" id="banner">
+  <nav>
+    <a href="/team"></a>
+    <a href="/calendar"></a>
+  </nav>
+  <main></main>
   <h1>Hello World</h1>
 </body>
 </html>
